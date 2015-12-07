@@ -1,0 +1,29 @@
+\frametitle{Esempio : Ordinamento di una List<T>}
+\setbeamercolor{output}{fg=blue}
+\begin{beamercolorbox}{output}
+L'output, generato dalla classe Main, $\grave{e}$ il seguente:
+\end{beamercolorbox}
+\fontsize{11pt}{7.2}\selectfont
+\begin{verbatim}
+Verdi Bianchi Gianpaoli Rossi Focardi
+Giovanni Luca Gianpaolo Paolo Zeus
+40 20 75 60 5
+
+
+Focardi Bianchi Verdi Rossi Gianpaoli
+Zeus Luca Giovanni Paolo Gianpaolo
+5 20 40 60 75
+
+
+Gianpaoli Rossi Verdi Bianchi Focardi
+Gianpaolo Paolo Giovanni Luca Zeus
+75 60 40 20 5
+
+
+Bianchi Focardi Gianpaoli Rossi Verdi
+Luca Zeus Gianpaolo Paolo Giovanni
+20 5 75 60 40
+\end{verbatim}
+\begin{block}{Risposta}
+Si, le lambda expressions sono ancora ben definite
+\end{block}
